@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url(Background.png);
+        height: 80vh;
+        width: 100%;
+        /* position: relative;
+    overflow: hidden; */
+
+    }
+
+    
+    .header {
+
+        display: flex;
+        /* border: 2px black solid; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        /* padding-top: 2rem; */
+
+
+
+    }
+
+    .options {
+
+        display: flex;
+        color: white;
+        /* border: 2px red solid; */
+        /* align-items: ; */
+        justify-content: space-around;
+        width: 50%;
+        padding-top: 3rem;
+        height: 50%;
+    }
+
+    .options button {
+
+        /* border: 2px purple solid; */
+        height: 80%;
+        width: 20%;
+        background-color: #b7eaaf;
+        border-radius: 5px;
+
+    }
+
+    .options img {
+        /* border: 2px purple solid; */
+        height: 30px;
+        width: 40px;
+
+    }
+
+    .center {
+        width: 35%;
+        height: 45%;
+        font-size: 30px;
+        margin: 4rem 35rem;
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+    }
+
+    h1 {
+        color: gainsboro
+    }
+
+    p {
+        color: rgb(197, 190, 190);
+    }
+
+    /* .corner {
+        position: relative;
+        border: 2px solid red;
+        width: 20%;
+        height: 100%;
+        margin-top: -22rem;
+        margin-left: 20px;
+    } */
+    .corner {
+        position: relative;
+        /* border: 2px solid red; */
+        width: 20%;
+        height: 92%;
+        margin-top: -22rem;
+        margin-left: 20px;
+    }
+
+    .corner img {
+        margin-left: -1rem;
+        margin-top: -1rem;
+        width: 120%;
+        height: 120%;
+    }
+
+
+    .corner .content {
+        position: absolute;
+        top: 0;
+    }
+
+    .content h2 {
+        color: white;
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .content h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        color: #b7eaaf;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .content .para {
+        /* border: 2px solid yellow; */
+        width: 310px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    .content .para p {
+        color: rgb(214, 224, 220);
+        margin-top: 2px;
+        /* border: 2px solid red; */
+        width: 300px;
+    }
+
+    .para .round {
+        width: 50px;
+        margin-left: -7px;
+        margin-top: 1px;
+    }
+
+    .para .basketpara {
+        margin-left: 42px;
+    }
+
+    .para .basket {
+        width: 20px;
+        height: 20px;
+        text-align: end;
+        margin-left: 60px;
+        margin-top: 5px;
+    }
+
+    hr {
+        height: 1px;
+        background-color: rgba(180, 212, 213, 0.3);
+        border: none;
+        width: 87%;
+        margin-left: 42px;
+    }
+    .footer {
+        /* border: 2px black solid; */
+        padding-top: 5rem;
+    position: absolute;
+    /* bottom: ; */
+    width: 100%;
+    height: 290px;
+}
+
+.footer img {
+    width: 100%;
+     height: 350px;  
+
+}
+.div {
+    position: absolute;
+    top: 27rem;
+    /* border: 2px solid red; */
+    height: 160px;
+    width: 50px;
+}
+
+.div img {
+    /* margin-left: -1.7rem;
+    margin-top: -1.2rem; */
+    padding-top: 8rem;
+    height: 50%;
+    width: 250%;
+}
+
+</style>
+
+<body>
+    <!-- <div class="main"> -->
+    <div class="header">
+        <div class="options">
+            <!-- <img src="https://cdn-icons-png.flaticon.com/128/9421/9421264.png" alt=""> -->
+            <img src="leaf.png" alt="">
+            <p>Service</p>
+            <p>Blog</p>
+            <p>Shop</p>
+            <p>Location</p>
+            <button>check out(0)</button>
+        </div>
+    </div>
+    <div class="center">
+        <h1>Foliage for <br>plants .</h1>
+
+        <p>Add some color to your home, give it a little attention, the plants will accompany you quietly</p>
+
+    </div>
+    <div class="footer">
+         <img src="Bottom.png" alt="">
+        </div>
+    <div class="corner">
+        <img src="./Background 2.png" alt="">
+        <div class="content">
+            <h2>Foliage for plants</h2>
+            <h4>21 PLANTS</h4>
+
+            <div class="para">
+                <img class="round" src="./O.png" alt="">
+                <p>Calathea Silhouette</p>
+            </div>
+            <hr>
+            <div class="para">
+                <p class="basketpara">Calathea Veitchiana Hook.</p>
+                <img class="basket" src="./Basket.png" alt="">
+            </div>
+            <hr>
+            <div class="para">
+                <p class="basketpara">Calathea Orbifolia</p>
+                <img class="basket" src="./Basket.png" alt="">
+            </div>
+            <hr>
+            <div class="para">
+                <p class="basketpara">Calathea Minature</p>
+                <img class="basket" src="./Basket.png" alt="">
+            </div>
+            <hr>
+            <div class="para">
+                <img class="round" src="./O.png" alt="">
+                <p>Calathea Lietzei ‘Fusion White’</p>
+            </div>
+            <hr>
+            <div class="para">
+                <p class="basketpara">Monstera Deliciosa</p>
+                <img class="basket" src="./Basket.png" alt="">
+            </div>
+            <hr>
+            <div class="para">
+                <p class="basketpara">Anthurium Clarinervium</p>
+                <img class="basket" src="./Basket.png" alt="">
+            </div>
+            <hr>
+            <div class="para">
+                <img class="round" src="./O.png" alt="">
+                <p>Fancy-leaf Caladium</p>
+            </div>
+            <hr>
+            <div class="para">
+                <img class="round" src="./O.png" alt="">
+                <p>Billbergia Viridis</p>
+            </div>
+            <hr>
+        </div>
+        <div class="div">
+            <img src="./Btn_Close.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

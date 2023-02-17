@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(Background\ \(3\).png);
+        /* height: 100vh; */
+    }
+   
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 100%;
+    }
+     .header {
+
+        display: flex;
+        /* border: 2px black solid; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        /* padding-top: 2rem; */
+
+
+
+    }
+    .options {
+
+display: flex;
+color: white;
+/* border: 2px red solid; */
+/* align-items: ; */
+justify-content: space-around;
+width: 50%;
+padding-top: 3rem;
+height: 50%;
+}
+
+.options button {
+
+/* border: 2px purple solid; */
+height: 80%;
+width: 20%;
+background-color: #b7eaaf;
+border-radius: 5px;
+
+}
+
+.options img {
+/* border: 2px purple solid; */
+height: 30px;
+width: 40px;
+
+}
+.page2 {
+        /* margin-top: 5rem; */
+        border-radius: 16px;
+        /* border: 2px red solid; */
+        background-image: url(bg2.png);
+        height: 80%;
+        width: 90%;
+        /* margin-top: 3rem;
+        margin-bottom: 0rem; */
+    padding-left: 5rem;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    h1 {
+        /* border: 2px red solid; */
+        color: white;
+        width: 40%;
+        font-size: 50px;
+        margin-bottom: 2rem;
+
+    }
+    p{
+        color: white;
+        padding-bottom: 2rem;
+        /* border: 2px red solid; */
+    }
+    .page2 button {
+    background: linear-gradient(90deg, rgba(127, 202, 33, 0.8), #105200);
+    padding: 1rem 2rem;
+    /* border: 2px red solid; */
+    width: 40%;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 25%;
+
+    }
+    .left{
+        /* border: 2px blue solid; */
+         display: flex;
+        flex-direction: column;
+     } 
+    .beery{
+        height: 50px;
+        width: 50px;
+    }
+    .right{
+        /* border: 2px red solid; */
+        padding-top: 4rem;
+    }
+
+</style>
+<body>
+    <div class="main">
+        <div class="header">
+                <div class="options">
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/128/9421/9421264.png" alt=""> -->
+                    <img src="leaf.png" alt="">
+                    <p>Service</p>
+                    <p>Blog</p>
+                    <p>Shop</p>
+                    <p>Location</p>
+                    <button>check out(0)</button>
+                </div>
+        </div>
+        
+        <div class="page2">
+            <div class="left">
+            <h1>Service for home plants.</h1>
+            <p>If you don't know what plants you can add to the space,<br>we can provide you with selected <br> plants,and
+                configure your space.</p>
+            <button>Try for service</button>
+            <p2>Gardner By</p2>
+            <img class="beery"   src="berry.png" alt="">
+        </div>
+        <div class="right">
+            <img src="foliage.png" alt="">
+            <img src="pocculent.png" alt="">
+        </div>
+        </div>
+
+        <img class="image" src="./Bottom.png" alt="">
+
+    </div>
+</body>
+</html>
